@@ -158,6 +158,7 @@ Run samples only in isolated, disposable environments, and follow your organizat
 - [de4dot](https://github.com/de4dot/de4dot) - .NET deobfuscator and unpacker for assemblies protected by common obfuscators; archived in 2020 and no longer updated.
 - [GDRE Tools](https://github.com/GDRETools/gdsdecomp) - Recovers Godot projects from exported games, including PCK extraction, GDScript decompilation, and resource conversion.
 - [GoReSym](https://github.com/mandiant/GoReSym) - Recovers function names, types, and build metadata from Go binaries, including stripped ones.
+- [Hermit](https://github.com/xV4L3x/hermit) - Interactive toolkit for disassembling, decompiling, inspecting, and patching Hermes bytecode used by React Native applications.
 - [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) - Restores Unity IL2CPP type and method metadata for use in IDA, Ghidra, and other tools; no commits since July 2024, with Cpp2IL as a maintained alternative.
 - [pycdc](https://github.com/zrax/pycdc) - Disassembles and decompiles Python bytecode from `.pyc` files; decompilation of recent Python versions can be incomplete.
 - [pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor) - Extracts the contents of PyInstaller executables, including the bytecode needed for decompilation.
