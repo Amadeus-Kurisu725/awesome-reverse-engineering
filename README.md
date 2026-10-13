@@ -224,7 +224,7 @@ Run samples only in isolated, disposable environments, and follow your organizat
 ![Two binary files compared with a changed block highlighted](.github/section-art/diffing.png)
 
 - [angr](https://github.com/angr/angr) - Python framework for symbolic execution and program analysis; [angr-management](https://github.com/angr/angr-management) is its official GUI front end, not a separate analysis engine.
-- [BinDiff](https://github.com/google/bindiff) - Compares disassembled binaries to identify similar functions and changes between builds; inputs come from the [BinExport](https://github.com/google/binexport) plugin, whose current release supports IDA Pro 9.4 or later, Ghidra, and Binary Ninja.
+- [BinDiff](https://github.com/google/bindiff) - Compares disassembled binaries to identify similar functions and changes between builds; inputs come from the [BinExport](https://github.com/google/binexport) plugin for IDA Pro, Ghidra, and Binary Ninja, whose current source requires IDA Pro 9.4 or later (the last tagged release, from 2024, targets the IDA 8.x SDK).
 - [Capstone](https://github.com/capstone-engine/capstone) - Multi-architecture disassembly library for building analysis tools.
 - [Diaphora](https://github.com/joxeankoret/diaphora) - Binary diffing plugin for comparing functions and transferring analysis in IDA.
 - [ghidriff](https://github.com/clearbluejar/ghidriff) - Ghidra-based command-line binary diffing engine with JSON, Markdown, and optional HTML reports; requires compatible Ghidra, PyGhidra, and JDK versions.
