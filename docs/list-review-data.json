@@ -1205,5 +1205,54 @@
         }
       ]
     }
-  ]
+  ],
+  "source_link_maintenance": {
+    "checked_at": "2026-10-13T14:16:52.385467+00:00",
+    "scope": "Availability of supporting file URLs only; the original comparison and repository observations were not refreshed. Existing branch references are retained.",
+    "reason": "Recurring HTTP 503 responses from GitHub blob rendering; same-ref raw source routes returned HTTP 200.",
+    "routes": [
+      {
+        "browser_url": "https://github.com/DiscoverBox/awesome-ai-reverse/blob/main/README_EN.md",
+        "raw_url": "https://raw.githubusercontent.com/DiscoverBox/awesome-ai-reverse/main/README_EN.md",
+        "status": 200,
+        "sha256": "a83f4e9651087e5b2bf3095c462d8e6550b90fb470fa0ef2330a3442c779c5b3"
+      },
+      {
+        "browser_url": "https://github.com/DiscoverBox/awesome-ai-reverse/blob/main/.github/workflows/update-readme-metadata.yml",
+        "raw_url": "https://raw.githubusercontent.com/DiscoverBox/awesome-ai-reverse/main/.github/workflows/update-readme-metadata.yml",
+        "status": 200,
+        "sha256": "282d9e50b098966c30722d18e8723b424c9e1e135cb345fe8ed884901387c0da"
+      },
+      {
+        "browser_url": "https://github.com/hexsecs/awesome-embedded-security/blob/main/contributing.md",
+        "raw_url": "https://raw.githubusercontent.com/hexsecs/awesome-embedded-security/main/contributing.md",
+        "status": 200,
+        "sha256": "14c012ebdd0982d735f09e9ebb93aa90199f6e234262f9ebec12bc9a10789518"
+      },
+      {
+        "browser_url": "https://github.com/hexsecs/awesome-embedded-security/blob/main/.github/workflows/entry-health.yml",
+        "raw_url": "https://raw.githubusercontent.com/hexsecs/awesome-embedded-security/main/.github/workflows/entry-health.yml",
+        "status": 200,
+        "sha256": "72cd6e92012841a56a1d74328c96499200c42ab02cb60695a194fdb6f0e1295e"
+      },
+      {
+        "browser_url": "https://github.com/VelocityRa/awesome-game-file-format-reversing/blob/master/.github/workflows/continuous-integration.yml",
+        "raw_url": "https://raw.githubusercontent.com/VelocityRa/awesome-game-file-format-reversing/master/.github/workflows/continuous-integration.yml",
+        "status": 200,
+        "sha256": "f10c5e6c39d0fcfd3661a61f4cf165de4ce043d3f8de7fd0ef4b2dfcac13b23a"
+      },
+      {
+        "browser_url": "https://github.com/TheQmaks/awesome-web-reversing/blob/main/.github/workflows/verify.yml",
+        "raw_url": "https://raw.githubusercontent.com/TheQmaks/awesome-web-reversing/main/.github/workflows/verify.yml",
+        "status": 200,
+        "sha256": "7f7c43dc811fa7f68cb1ac59eb5c7539d73b1440ad0d1950acddde3025c8d40c"
+      },
+      {
+        "browser_url": "https://github.com/sindresorhus/awesome/blob/main/awesome.md",
+        "raw_url": "https://raw.githubusercontent.com/sindresorhus/awesome/main/awesome.md",
+        "status": 200,
+        "sha256": "6d7a52fadc61c35a7ec138963829b0bb70b9fd17a0a04e3d0ac47315d39d9849"
+      }
+    ]
+  }
 }
