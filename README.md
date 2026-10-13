@@ -93,6 +93,7 @@ Find a tool by the work you need to do. Each entry describes its purpose; commer
 - [radare2](https://github.com/radareorg/radare2) - Command-line toolkit for disassembly, binary inspection, debugging, and scripting.
 - [RetDec](https://github.com/avast/retdec) - Retargetable LLVM-based decompiler for ELF, PE, Mach-O, and other formats; in limited maintenance mode, with little new development.
 - [Rizin](https://github.com/rizinorg/rizin) - Reverse-engineering framework with command-line analysis and reusable libraries.
+- [Rubber Room](https://binarybacktrace.com/tools/rubber_room) - Browser PE workbench with x86-64 disassembly, partial Win32 API emulation and experimental C-like pseudocode that may omit program logic; alpha.
 
 ## Debuggers
 
@@ -216,8 +217,10 @@ Run samples only in isolated, disposable environments, and follow your organizat
 - [010 Editor](https://www.sweetscape.com/010editor/) - Hex editor with binary templates for inspecting structured files. **Commercial**.
 - [Construct](https://github.com/construct/construct) - Declarative Python library for parsing and building binary formats with composable schemas and validation.
 - [CyberChef](https://github.com/gchq/CyberChef) - Browser-based workbench for decoding, decompressing, and transforming data with exportable recipes.
+- [Hex Harbinger](https://binarybacktrace.com/tools/hex_harbinger) - Browser hex editor that overlays structure templates for PE, ELF, Mach-O and ZIP files and highlights the parsed fields; alpha.
 - [ImHex](https://github.com/WerWolv/ImHex) - Hex editor with a pattern language for describing and exploring binary structures.
 - [Kaitai Struct](https://kaitai.io/) - Describes binary formats declaratively and generates parsers in multiple languages.
+- [Struct Smith](https://binarybacktrace.com/tools/struct_smith) - Browser editor for Spec binary-format schemas, with a live parse tree, byte highlighting and diagnostics; alpha, with a 64 MiB input limit.
 
 ## Diffing and analysis frameworks
 
