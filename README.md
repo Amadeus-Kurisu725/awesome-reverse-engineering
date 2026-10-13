@@ -93,7 +93,7 @@ Find a tool by the work you need to do. Each entry describes its purpose; commer
 - [radare2](https://github.com/radareorg/radare2) - Command-line toolkit for disassembly, binary inspection, debugging, and scripting.
 - [RetDec](https://github.com/avast/retdec) - Retargetable LLVM-based decompiler for ELF, PE, Mach-O, and other formats; in limited maintenance mode, with little new development.
 - [Rizin](https://github.com/rizinorg/rizin) - Reverse-engineering framework with command-line analysis and reusable libraries.
-- [Rubber Room](https://binarybacktrace.com/tools/rubber_room) - Browser-based PE analysis with x86-64 disassembly, decompilation and partial Win32 API emulation, with nothing to install; alpha.
+- [Rubber Room](https://binarybacktrace.com/tools/rubber_room) - Browser PE workbench with x86-64 disassembly, partial Win32 API emulation and experimental C-like pseudocode that may omit program logic; alpha.
 
 ## Debuggers
 
@@ -220,7 +220,7 @@ Run samples only in isolated, disposable environments, and follow your organizat
 - [Hex Harbinger](https://binarybacktrace.com/tools/hex_harbinger) - Browser hex editor that overlays structure templates for PE, ELF, Mach-O and ZIP files and highlights the parsed fields; alpha.
 - [ImHex](https://github.com/WerWolv/ImHex) - Hex editor with a pattern language for describing and exploring binary structures.
 - [Kaitai Struct](https://kaitai.io/) - Describes binary formats declaratively and generates parsers in multiple languages.
-- [Struct Smith](https://binarybacktrace.com/tools/struct_smith) - Browser editor for the Spec binary-format description language that shows the parsed struct tree and hex highlighting live as you edit; alpha.
+- [Struct Smith](https://binarybacktrace.com/tools/struct_smith) - Browser editor for Spec binary-format schemas, with a live parse tree, byte highlighting and diagnostics; alpha, with a 64 MiB input limit.
 
 ## Diffing and analysis frameworks
 
