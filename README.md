@@ -76,6 +76,7 @@ Find a tool by the work you need to do. Each entry describes its purpose; commer
 - [checksec](https://github.com/slimm609/checksec) - Checks ELF security properties such as PIE, RELRO, stack canaries, and non-executable stacks; mitigation flags are not a vulnerability verdict.
 - [Detect It Easy](https://github.com/horsicq/Detect-It-Easy) - Identifies executable formats, compilers, packers, and other file characteristics.
 - [FLOSS](https://github.com/mandiant/flare-floss) - Recovers obfuscated strings, including strings constructed on the stack.
+- [hexvero](https://github.com/maximilianfeix/hexvero) - Statically triages Electron archives and JavaScript bundles for IPC channels, preload bridges, and window settings, plus ELF/Mach-O/PE imports and hardening; its CLI, MCP server, and local web UI require Node.js 22.12+, and pattern-based JavaScript analysis can miss indirect code.
 - [LIEF](https://github.com/lief-project/LIEF) - Parses and modifies executable formats such as PE, ELF, and Mach-O from code.
 - [Malcat](https://malcat.fr/) - Hex editor and disassembler for triaging unknown files, with 50+ format parsers, embedded-file extraction, YARA scanning, and Python scripting. **Commercial**, with a free Lite edition for non-professional use.
 - [PE-bear](https://github.com/hasherezade/pe-bear) - Graphical PE viewer and editor for a quick first look at headers, sections, imports, and resources, including malformed files.
