@@ -56,21 +56,21 @@ This is a review of leading search results and relevant specialists, rather than
 
 ### Clear selection before the catalog
 
-[DiscoverBox's English README](https://github.com/DiscoverBox/awesome-ai-reverse/blob/main/README_EN.md) explains tool types and starts with a task-to-tool table before its ecosystem sections. That reduces the knowledge a reader needs before choosing a category. Its entries also surface dependencies on host tools and commercial software. For this repository, a short task table and explicit commercial labels provide that benefit without a wide metadata table for every entry.
+[DiscoverBox's English README](https://raw.githubusercontent.com/DiscoverBox/awesome-ai-reverse/main/README_EN.md) explains tool types and starts with a task-to-tool table before its ecosystem sections. That reduces the knowledge a reader needs before choosing a category. Its entries also surface dependencies on host tools and commercial software. For this repository, a short task table and explicit commercial labels provide that benefit without a wide metadata table for every entry.
 
-DiscoverBox's [metadata workflow](https://github.com/DiscoverBox/awesome-ai-reverse/blob/main/.github/workflows/update-readme-metadata.yml) updates dates and stars daily and commits under the owner's name with a bot email. The sampled scheduled run on 9 October succeeded. Its history also contains editorial changes, including the 9 October catalog/selection revision. Treat the automated commits separately when assessing curation.
+DiscoverBox's [metadata workflow](https://raw.githubusercontent.com/DiscoverBox/awesome-ai-reverse/main/.github/workflows/update-readme-metadata.yml) updates dates and stars daily and commits under the owner's name with a bot email. The sampled scheduled run on 9 October succeeded. Its history also contains editorial changes, including the 9 October catalog/selection revision. Treat the automated commits separately when assessing curation.
 
 ### Curation and link health as separate jobs
 
-[hexsecs](https://github.com/hexsecs/awesome-embedded-security) groups resources into software, hardware, and learning, then refines by investigation task. Descriptions explain the purpose, and markers identify commercial or archived resources. Its [contribution guide](https://github.com/hexsecs/awesome-embedded-security/blob/main/contributing.md) sets concrete admission and formatting rules.
+[hexsecs](https://github.com/hexsecs/awesome-embedded-security) groups resources into software, hardware, and learning, then refines by investigation task. Descriptions explain the purpose, and markers identify commercial or archived resources. Its [contribution guide](https://raw.githubusercontent.com/hexsecs/awesome-embedded-security/main/contributing.md) sets concrete admission and formatting rules.
 
-Its [entry-health workflow](https://github.com/hexsecs/awesome-embedded-security/blob/main/.github/workflows/entry-health.yml) checks repository decay that HTTP availability cannot detect; the sampled 8 October scheduled run succeeded. A separate web-health workflow reviews non-GitHub resources. This is a stronger maintenance model than assuming an HTTP 200 response means a recommendation remains useful.
+Its [entry-health workflow](https://raw.githubusercontent.com/hexsecs/awesome-embedded-security/main/.github/workflows/entry-health.yml) checks repository decay that HTTP availability cannot detect; the sampled 8 October scheduled run succeeded. A separate web-health workflow reviews non-GitHub resources. This is a stronger maintenance model than assuming an HTTP 200 response means a recommendation remains useful.
 
 ### Split by domain when the catalog needs it
 
 [Reversing.ID](https://github.com/ReversingID/Awesome-Reversing) separates software, hardware, formats, and databases into four pages. Within software, it separates learning, static analysis, dynamic analysis, automation, and protection-related tools. This is an effective domain map, although the May reorganization alone does not establish regular maintenance.
 
-[VelocityRa](https://github.com/VelocityRa/awesome-game-file-format-reversing) recently split a large catalog into a root index and `list/` files, organized around engines and games. Its 1 October commit explicitly cites GitHub's README rendering limit. A [workflow](https://github.com/VelocityRa/awesome-game-file-format-reversing/blob/master/.github/workflows/continuous-integration.yml) checks structure and links, and a separate workflow builds a documentation site. The latest sampled CI run failed while the site build succeeded; configured automation should not be described as uniformly healthy.
+[VelocityRa](https://github.com/VelocityRa/awesome-game-file-format-reversing) recently split a large catalog into a root index and `list/` files, organized around engines and games. Its 1 October commit explicitly cites GitHub's README rendering limit. A [workflow](https://raw.githubusercontent.com/VelocityRa/awesome-game-file-format-reversing/master/.github/workflows/continuous-integration.yml) checks structure and links, and a separate workflow builds a documentation site. The latest sampled CI run failed while the site build succeeded; configured automation should not be described as uniformly healthy.
 
 For the initial version of this list, one browsable README is sufficient. Split a section when it becomes hard to navigate, retaining a short index and links between related tasks.
 
@@ -82,7 +82,7 @@ There are limits to the maintenance evidence: some tracks describe future sectio
 
 ### Structured data for a larger catalog
 
-[TheQmaks](https://github.com/TheQmaks/awesome-web-reversing) separates workflow documentation from source data and a generated catalog. Its [weekly verification workflow](https://github.com/TheQmaks/awesome-web-reversing/blob/main/.github/workflows/verify.yml) refreshes GitHub metadata; sampled scheduled runs on 28 September and 5 October succeeded.
+[TheQmaks](https://github.com/TheQmaks/awesome-web-reversing) separates workflow documentation from source data and a generated catalog. Its [weekly verification workflow](https://raw.githubusercontent.com/TheQmaks/awesome-web-reversing/main/.github/workflows/verify.yml) refreshes GitHub metadata; sampled scheduled runs on 28 September and 5 October succeeded.
 
 This is a useful pattern when filters, generated pages, or agent-readable queries become necessary. Its lifecycle labels are based largely on push age, which remains a proxy for usefulness. This repository starts with Markdown to avoid maintaining a generator before there is a need for one.
 
@@ -95,4 +95,8 @@ This is a useful pattern when filters, generated pages, or agent-readable querie
 - Add contribution guidance, a pull-request template, CC0 licensing, and a weekly/PR link-check workflow.
 - Keep this comparison dated. Review compatibility, archive status, and alternatives during editorial updates; automated availability checks cover only part of maintenance.
 
-These choices also follow the [Awesome manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md): a defined scope, useful descriptions, consistent categories, contribution guidance, and a suitable content license.
+These choices also follow the [Awesome manifesto](https://raw.githubusercontent.com/sindresorhus/awesome/main/awesome.md): a defined scope, useful descriptions, consistent categories, contribution guidance, and a suitable content license.
+
+## Source-link maintenance
+
+On 2026-10-13, GitHub file links were switched to the same branch and file paths through `raw.githubusercontent.com` after recurring HTTP 503 responses from GitHub HTML rendering. The original 2026-10-09 comparison date and repository observations were retained. The JSON records the checked routes separately; these existing branch references remain moving links rather than immutable historical snapshots.
